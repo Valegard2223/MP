@@ -4,46 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm An Tran</h1>
-    <p>Software Engineering Student | Aspiring Web Developer</p>
+
+  <header class="bg-dark text-white py-5 text-center">
+    <div class="container">
+      <h1>Hi, I'm An Tran</h1>
+      <p>Software Engineering Student | Aspiring Web Developer</p>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m passionate about web development and building impactful digital experiences...</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML/CSS</li>
-      
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>My Blog Website</strong> –
-        <a href="https://valegard2223.github.io/first-project/" target="_blank">GitHub Link</a>
-      </li>
+  <main class="container my-5">
     
-    </ul>
-  </section>
+    <section id="about" class="mb-5">
+      <h2 class="mb-3">About Me</h2>
+      <p>I’m passionate about web development and building impactful digital experiences...</p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: antran@example.com</p>
-    <p>Phone: +84 xx xxxx xx </p>
-  </section>
+    <section id="skills" class="mb-5">
+      <h2 class="mb-3">Skills</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">HTML/CSS</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">Bootstrap</li>
+        <li class="list-group-item">Git & GitHub</li>
+      </ul>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 An Tran</p>
+    <section id="projects" class="mb-5">
+      <h2 class="mb-3">Projects</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>My Blog Website</strong> –
+          <a href="https://valegard2223.github.io/first-project/" target="_blank">GitHub Link</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="mb-5">
+      <h2 class="mb-3">Contact Me</h2>
+      <p><strong>Email:</strong> antran@example.com</p>
+      <p><strong>Phone:</strong> +84 xx xxxx xx</p>
+    </section>
+
+  </main>
+
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0">&copy; 2025 An Tran</p>
   </footer>
+
 </body>
 </html>
